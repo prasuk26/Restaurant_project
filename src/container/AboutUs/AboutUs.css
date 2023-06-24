@@ -22,3 +22,30 @@
     flex-direction: column;
     text-align: right;
 }
+.app__aboutus-content_knife{
+    margin: 2rem 4rem;
+}
+.app__aboutus-content_knife img{
+    height: 710px;
+}
+.app__aboutus-content_history{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.app__aboutus-content_history p,
+.app__aboutus-content_about p {
+    margin: 2rem 0;
+    color: var(--color-grey);
+
+}
+
+/* @media screen and (max-width: 2000px) {
+    .app__aboutus-content_knife img {
+        height: 1110px;
+    } */
+    
+/* } */
