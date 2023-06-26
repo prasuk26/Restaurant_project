@@ -10,12 +10,12 @@ const App = () => (
     <Header />
     <AboutUs />
     <SpecialMenu />
-    {/* <Chef />
-    <Intro />
-    <Laurels />
-    <Gallery />
-    <FindUs />
-    <Footer /> */}
+    <Chef />
+    {/* <Intro /> */}
+    {/* <Laurels /> */}
+    {/* <Gallery /> */}
+    {/* <FindUs /> */}
+    {/* <Footer /> */}
   </div>
 );
 
