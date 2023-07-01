@@ -9,7 +9,7 @@ const galleryImages = [images.gallery01, images.gallery02, images.gallery03 ,ima
 const Gallery = () => {
   const scrollRef = React.useRef(null);
   const scroll = (direction) =>{
-    const { current } =  scrollRef;
+    const { current } =  scrollRef; 
 
     if(direction === 'left'){
       current.scrollLeft -=300;
@@ -18,6 +18,8 @@ const Gallery = () => {
       current.scrollLeft +=300; 
     }
   }
+
+  
   return (
     <div className='app__gallery flex__center'>
       <div className="app__gallery-content">
